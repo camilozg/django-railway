@@ -136,3 +136,8 @@ STORAGES = {
         "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
     },
 }
+
+CSRF_TRUSTED_ORIGINS = [
+    'http://localhost:8000',
+    'https://web-production-b3eb.up.railway.app',
+]
